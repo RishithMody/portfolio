@@ -10,10 +10,11 @@
       {
         "src": "/(.*)",
         "dest": "/$1"
-      },
-      {
-        "src": "/(.*)",
-        "dest": "/assets/$1"
       }
-    ]
+    ],
+    "rewrites": [
+    {
+      "source": "/:path*",
+      "destination": "/assets/:path*"
+    }]
   }
