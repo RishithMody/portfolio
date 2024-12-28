@@ -9,6 +9,10 @@
     <link rel="stylesheet" href="/mediaqueries.css" />
   </head>
   <body>
+    <div class="progress-bar"></div>
+    <button id="theme-toggle" class="theme-toggle">
+        <img src="/public/moon.png" alt="Theme toggle" class="icon" />
+    </button>
     <nav id="desktop-nav">
       <div class="logo">Rishith Mody</div>
       <div>
@@ -38,7 +42,7 @@
     </nav>
     <section id="profile">
       <div class="section__pic-container">
-        <img src="./assets/download.png" alt="Rishith Mody profile picture" />
+        <img src="/public/download.png" alt="Rishith Mody profile picture" />
       </div>
       <div class="section__text">
         <p class="section__text__p1">Hello, I'm</p>
@@ -47,7 +51,7 @@
         <div class="btn-container">
           <button
             class="btn btn-color-2"
-            onclick="window.open('./assets/RishithModyResume(Intern).pdf')"
+            onclick="window.open('/public/RishithModyResume(Intern).pdf')"
           >
             Download Resume
           </button>
@@ -57,13 +61,13 @@
         </div>
         <div id="socials-container">
           <img
-            src="./assets/linkedin.png"
+            src="/public/linkedin.png"
             alt="My LinkedIn profile"
             class="icon"
             onclick="location.href='linkedin.com/in/rishith-mody-9a481a248'"
           />
           <img
-            src="./assets/github.png"
+            src="/public/github.png"
             alt="My Github profile"
             class="icon"
             onclick="location.href='https://github.com/RishithMody'"
@@ -77,7 +81,7 @@
       <div class="section-container">
         <div class="section__pic-container">
           <img
-            src="./assets/unnamed.png"
+            src="/public/unnamed.png"
             alt="Profile picture"
             class="about-pic"
           />
@@ -86,7 +90,7 @@
           <div class="about-containers">
             <div class="details-container">
               <img
-                src="./assets/experience.png"
+                src="/public/experience.png"
                 alt="Experience icon"
                 class="icon"
               />
@@ -95,7 +99,7 @@
             </div>
             <div class="details-container">
               <img
-                src="./assets/education.png"
+                src="/public/education.png"
                 alt="Education icon"
                 class="icon"
               />
@@ -114,7 +118,7 @@
         </div>
       </div>
       <img
-        src="./assets/arrow.png"
+        src="/public/arrow.png"
         alt="Arrow icon"
         class="icon arrow"
         onclick="location.href='./#experience'"
@@ -130,68 +134,68 @@
             <div class="article-container">
               <article>
                 <img
-                  src="./assets/checkmark.png"
+                  src="/public/checkmark.png"
                   alt="Experience icon"
                   class="icon"
                 />
                 <div>
-                  <h3>Python</h3>
-                  <p>Experienced</p>
+                  <h3>Languages</h3>
+                  <p>Python, Java, C++, C</p>
                 </div>
               </article>
               <article>
                 <img
-                  src="./assets/checkmark.png"
+                  src="/public/checkmark.png"
                   alt="Experience icon"
                   class="icon"
                 />
                 <div>
-                  <h3>Java, C, C++</h3>
-                  <p>Experienced</p>
+                  <h3>Web Development</h3>
+                  <p>HTML, CSS, JavaScript, TypeScript, React, Next.js, Node.js, Express</p>
                 </div>
               </article>
               <article>
                 <img
-                  src="./assets/checkmark.png"
+                  src="/public/checkmark.png"
                   alt="Experience icon"
                   class="icon"
                 />
                 <div>
-                  <h3>MySQL</h3>
-                  <p>Intermediate</p>
+                  <h3>Databases</h3>
+                  <p>MySQL, PostgreSQL, MongoDB, Redis</p>
                 </div>
               </article>
               <article>
                 <img
-                  src="./assets/checkmark.png"
+                  src="/public/checkmark.png"
                   alt="Experience icon"
                   class="icon"
                 />
                 <div>
-                  <h3>TypeScript</h3>
-                  <p>Intermediated</p>
+                  <h3>DevOps & Tools</h3>
+                  <p>Git, Docker, Kubernetes, CI/CD, Linux</p>
                 </div>
               </article>
               <article>
                 <img
-                  src="./assets/checkmark.png"
+                  src="/public/checkmark.png"
                   alt="Experience icon"
                   class="icon"
                 />
                 <div>
-                  <h3>HTML, CSS, JavaScript</h3>
-                  <p>Basic</p>
+                  <h3>AI & ML</h3>
+                  <p>TensorFlow, PyTorch, Scikit-learn, NLP</p>
                 </div>
               </article>
               <article>
                 <img
-                  src="./assets/checkmark.png"
+                  src="/public/checkmark.png"
                   alt="Experience icon"
                   class="icon"
                 />
                 <div>
-                  <h3>Node.js</h3>
-                  <p>Intermediate</p>
+                  <h3>Mobile Development</h3>
+                  <p>React Native, Flutter, Android</p>
                 </div>
               </article>
             </div>
@@ -201,7 +205,7 @@
             <div class="article-container">
               <article>
                 <img
-                  src="./assets/checkmark.png"
+                  src="/public/checkmark.png"
                   alt="Experience icon"
                   class="icon"
                 />
@@ -212,7 +216,7 @@
               </article>
               <article>
                 <img
-                  src="./assets/checkmark.png"
+                  src="/public/checkmark.png"
                   alt="Experience icon"
                   class="icon"
                 />
@@ -223,7 +227,7 @@
               </article>
               <article>
                 <img
-                  src="./assets/checkmark.png"
+                  src="/public/checkmark.png"
                   alt="Experience icon"
                   class="icon"
                 />
@@ -234,7 +238,7 @@
               </article>
               <article>
                 <img
-                  src="./assets/checkmark.png"
+                  src="/public/checkmark.png"
                   alt="Experience icon"
                   class="icon"
                 />
@@ -245,10 +249,47 @@
               </article>
             </div>
           </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">Work Experience</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="/public/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Software Developer</h3>
+                  <p>VOVANCE Ltd • May 2024 - Aug 2024</p>
+                  <ul class="experience-details">
+                    <li>Optimized ML models and NLP, boosting accuracy by 20%</li>
+                    <li>Built scalable backend systems (Python, Node.js, SQL), improving APIs and database performance</li>
+                    <li>Participated in code reviews and assisted with design documentation and specification</li>
+                  </ul>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="/public/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Software Developer</h3>
+                  <p>ASU - Ask A Biologist • Sep 2024 - Dec 2024</p>
+                  <ul class="experience-details">
+                    <li>Developed a custom web crawler to extract and migrate data from a legacy website to a new Drupal-based platform</li>
+                    <li>Ensured seamless data transfer by implementing robust error handling and minimal downtime</li>
+                    <li>Collaborated with cross-functional teams to enhance site functionality and improve user experience during the transition</li>
+                  </ul>
+                </div>
+              </article>
+            </div>
+          </div>
         </div>
       </div>
       <img
-        src="./assets/arrow.png"
+        src="/public/arrow.png"
         alt="Arrow icon"
         class="icon arrow"
         onclick="location.href='./#projects'"
@@ -262,7 +303,7 @@
           <div class="details-container color-container">
             <div class="project-preview">
               <img 
-                src="./assets/image_7Q3IiZun_1728086281791_512.webp" 
+                src="/public/image_7Q3IiZun_1728086281791_512.webp" 
                 alt="Project One" 
                 class="project-img"
               />
@@ -280,7 +321,7 @@
           <div class="details-container color-container">
             <div class="project-preview">
                 <img 
-                    src="./assets/orbitlogo.png" 
+                    src="/public/orbitlogo.png" 
                     alt="Project 2" 
                     class="project-img"
                 />
@@ -301,7 +342,7 @@
           <div class="details-container color-container">
             <div class="project-preview">
                 <img 
-                    src="./assets/Screenshot 2024-11-19 132658.png" 
+                    src="/public/Screenshot 2024-11-19 132658.png" 
                     alt="Project Three" 
                     class="project-img"
                 />
@@ -322,7 +363,7 @@
         </div>
       </div>
       <img
-        src="./assets/arrow.png"
+        src="/public/arrow.png"
         alt="Arrow icon"
         class="icon arrow"
         onclick="location.href='./#contact'"
@@ -334,7 +375,7 @@
       <div class="contact-info-upper-container">
         <div class="contact-info-container">
           <img
-            src="./assets/email.png"
+            src="/public/email.png"
             alt="Email icon"
             class="icon contact-icon email-icon"
           />
@@ -342,11 +383,11 @@
         </div>
         <div class="contact-info-container">
           <img
-            src="./assets/linkedin.png"
+            src="/public/linkedin.png"
             alt="LinkedIn icon"
             class="icon contact-icon"
           />
-          <p><a href="https://www.linkedin.com">LinkedIn</a></p>
+          <p><a href="https://www.linkedin.com/in/rishith-mody-9a481a248">LinkedIn</a></p>
         </div>
       </div>
     </section>
